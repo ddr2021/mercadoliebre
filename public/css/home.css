@@ -53,13 +53,15 @@ body.home img.burger-menu {
 /* footer-icons #2359A8 */
 
 body.home footer{
-    text-align: center;
-    margin: 0 43px 0;
 }
 
 body.home footer article.footer-articles{
     padding: 50px 0 0;
+}
 
+body.home footer section.secure-purchase{
+    text-align: center;
+    margin: 0 43px 0;
 }
 
 body.home footer article img.icon-pay,
@@ -80,7 +82,7 @@ body.home footer p.footer-p{
 }
 
 body.home footer p.footer-copyright{
-    margin: 44px 0 20px -50px;
+    margin: 44px 0 20px 15px;
     color: #667;
 
 }
