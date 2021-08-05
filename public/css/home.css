@@ -1,1 +1,88 @@
-﻿
+﻿body.home header {
+    background-color: #EAC926;
+}
+
+/* HEADER */
+body.home div.logo {
+    width: 50%;
+    padding: 6.25%;
+
+    margin: 7px 0 0 7px;
+}
+
+body.home div.search {
+    padding-left: 4.9%;
+}
+
+body.home img.hand-holding-dollar {
+    width: 14px;
+}
+
+body.home p.buy-now {
+    text-align: center;
+    padding: 27px;
+}
+
+body.home ul.nav-buy-sell {
+    margin-bottom: 20px;
+}
+
+body.home img.account,
+body.home img.sign-in,
+body.home img.my-purchase {
+    width: 14px;
+}
+
+body.home div.burger-menu-container {
+    width: 44px;
+    margin: 30px auto 30px;
+}
+
+body.home img.burger-menu {
+    width: 44px;
+    padding: 10px 12px 10px;
+    background-color: #1259c3;
+    border-radius: 5px;
+
+    margin: auto;
+    display: block;
+}
+
+/* FOOTER*/
+
+/* footer-icons #2359A8 */
+
+body.home footer{
+    text-align: center;
+    margin: 0 43px 0;
+}
+
+body.home footer article.footer-articles{
+    padding: 50px 0 0;
+
+}
+
+body.home footer article img.icon-pay,
+body.home footer article img.icon-free-shipping,
+body.home footer article img.icon-safe-shopping
+{
+    width: 37px;
+}
+
+body.home footer h4.footer-h4 {
+    color: #667;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+body.home footer p.footer-p{
+    color: #667;
+}
+
+body.home footer p.footer-copyright{
+    margin: 44px 0 20px -50px;
+    color: #667;
+
+}
+
+
