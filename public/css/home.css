@@ -1,17 +1,20 @@
-﻿body.home header {
+﻿/* HEADER */
+body.home header {
     background-color: #EAC926;
 }
 
-/* HEADER */
 body.home div.logo {
     width: 50%;
-    padding: 6.25%;
-
-    margin: 7px 0 0 7px;
+    padding: 30px 3% 14px 7%;
 }
 
 body.home div.search {
     padding-left: 4.9%;
+}
+
+body.home header div form p input.input-search {
+    width: 57%;
+    height: 23px;
 }
 
 body.home img.hand-holding-dollar {
@@ -20,7 +23,7 @@ body.home img.hand-holding-dollar {
 
 body.home p.buy-now {
     text-align: center;
-    padding: 27px;
+    margin: 33px auto 22px;
 }
 
 body.home ul.nav-buy-sell {
@@ -30,41 +33,43 @@ body.home ul.nav-buy-sell {
 body.home img.account,
 body.home img.sign-in,
 body.home img.my-purchase {
-    width: 14px;
+    width: 15px;
 }
 
 body.home div.burger-menu-container {
-    width: 44px;
-    margin: 30px auto 30px;
+    width: 47px;
+    margin: 30px auto 0px;
+    padding-bottom: 30px;
+}
+
+body.home div.burger-menu-container:hover {
+    opacity: 0.7;
 }
 
 body.home img.burger-menu {
-    width: 44px;
+    width: 47px;
     padding: 10px 12px 10px;
     background-color: #1259c3;
     border-radius: 5px;
 
-    margin: auto;
-    display: block;
 }
 
 /* FOOTER*/
 
 /* footer-icons #2359A8 */
 
-body.home footer article.footer-articles{
-    padding: 50px 0 0;
+body.home footer article.footer-articles {
+    padding: 55px 0 0;
 }
 
-body.home footer section.secure-purchase{
+body.home footer section.secure-purchase {
     text-align: center;
-    margin: 0 43px 0;
+    margin: 0 35px 0;
 }
 
 body.home footer article img.icon-pay,
 body.home footer article img.icon-free-shipping,
-body.home footer article img.icon-safe-shopping
-{
+body.home footer article img.icon-safe-shopping {
     width: 37px;
 }
 
@@ -74,14 +79,12 @@ body.home footer h4.footer-h4 {
     margin: 10px 0 5px;
 }
 
-body.home footer p.footer-p{
+body.home footer p.footer-p {
     color: #667;
 }
 
-body.home footer p.footer-copyright{
+/* COPYRIGHT */
+body.home footer p.footer-copyright {
     margin: 44px 0 20px 15px;
     color: #667;
-
 }
-
-
