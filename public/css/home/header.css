@@ -1,0 +1,62 @@
+﻿/* _HEADER */
+body.home header {
+    background-color: #EAC926;
+}
+
+/* _LOGO */
+body.home header div.logo {
+    width: 50%;
+    padding: 30px 3% 14px 7%;
+}
+
+/* _SEARCH BAR */
+body.home header div.search {
+    padding-left: 4.9%;
+}
+
+body.home header div form p input.input-search {
+    width: 57%;
+    height: 23px;
+}
+
+/* _TITLE MAIN */
+body.home header p.buy-now {
+    text-align: center;
+    margin: 33px 8% 22px;
+}
+
+body.home header p.buy-now img.icon-hand-holding-dollar {
+    width: 14px;
+}
+
+
+/* _MENU BUY-SELL */
+body.home header nav ul.nav-buy-sell {
+    margin-bottom: 20px;
+}
+
+/* _MENU ACCOUNT */
+body.home header nav ul li a img.icon-account,
+body.home header nav ul li a img.icon-sign-in,
+body.home header nav ul li a img.icon-my-purchase {
+    width: 15px;
+}
+
+/* _MENU BURGER */
+body.home header div.burger-menu-container {
+    width: 47px;
+    margin: 30px auto 0px;
+    padding-bottom: 30px;
+}
+
+body.home header div.burger-menu-container:hover {
+    opacity: 0.7;
+}
+
+body.home header div a img.icon-burger-menu {
+    width: 47px;
+    padding: 10px 12px 10px;
+    background-color: #1259c3;
+    border-radius: 5px;
+
+}

@@ -1,5 +1,5 @@
 ﻿@import url(/css/general.css);
 @import url(/css/normalize.css);
-@import url(/css/register.css);
-@import url(/css/home.css);
-
+@import url(/css/home/header.css);
+@import url(/css/home/main.css);
+@import url(/css/home/footer.css);
