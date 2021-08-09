@@ -1,0 +1,32 @@
+﻿/* FOOTER*/
+
+body.home footer section.secure-purchase {
+    text-align: center;
+    margin: 0 35px 0;
+}
+
+body.home footer section article.articles {
+    padding: 55px 0 0;
+}
+
+body.home footer section article img.icon-pay,
+body.home footer section article img.icon-free-shipping,
+body.home footer section article img.icon-safe-shopping {
+    width: 37px;
+}
+
+body.home footer section article h4.articles-title {
+    color: #667;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+body.home footer section article p.description {
+    color: #667;
+}
+
+/* COPYRIGHT */
+body.home footer p.copyright {
+    margin: 44px 0 20px 15px;
+    color: #667;
+}
