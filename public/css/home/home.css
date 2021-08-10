@@ -1,0 +1,61 @@
+﻿/* _MAIN */
+body.home main {
+    width: 90%;
+    margin: auto;
+}
+
+/* _TITLES SUGGEST PRODUCT */
+body.home main section.suggest-products h2.suggest-title,
+body.home main section.suggest-products h2.offer-title {
+    font-size: 24px;
+    padding: 25px 0;
+    color: #667;
+}
+
+/* _ARTICLES SUGGEST PRODUCT*/
+body.home main section.suggest-products article.suggest {
+    margin-bottom: 10px;
+}
+
+/* _IMG SUGGEST PRODUCT */
+body.home main section.suggest-products article.suggest div img.suggest-product-img,
+body.home main section.offer-products article.offer div img.offer-product-img {
+    width: 100%;
+}
+
+/* _PRICE SUGGEST PRODUCT */
+body.home main section.suggest-products article.suggest div.suggest-product-price {
+    padding: 15px;
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+}
+
+/* _ICON SHIPPING TRUCK */
+body.home main section.suggest-products article.suggest div.icon-shipping-truck {
+    border: solid 1px #39b54a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #39b54a;
+    padding: 7px;
+}
+
+/* _PRICE SUGGEST  */
+body.home main section.suggest-products article.suggest p.suggest-price {
+    font-size: 18px;
+}
+
+/* _OFF SUGGEST */
+body.home main section.suggest-products article.suggest p.suggest-off {
+    font-size: 16px;
+    font-weight: 700;
+    color: #39b54a;
+    margin-top: 3px;
+}
+
+/* _DESCRIPTION SUGGEST  */
+body.home main section.suggest-products article.suggest h4.suggest-description {
+    font-size: 16px;
+    padding-top: 30px;
+    color: #667;
+}

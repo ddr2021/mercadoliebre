@@ -18,9 +18,17 @@ li {
 }
 
 /* FUENTES */
+/* RUNS OK */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+/* @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap'); */
+* {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+
+}
+
+/* COLORES */
+body {
+    background-color: #ebebeb;
 }

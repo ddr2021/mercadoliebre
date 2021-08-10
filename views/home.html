@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <script src="https://kit.fontawesome.com/621cfbb24e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
@@ -20,19 +21,20 @@
         <div class="search">
             <form action="../../form-result.php" method="post" target="_blank">
                 <p>
-                    <input type="search" name="productsearch" placeholder="Buscar productos." class="input-search">
+                    <input type="search" name="productsearch" placeholder=" Buscar productos, marcas"
+                        class="input-search">
                     <input type="submit" value="Buscar" class="input-submit">
                 </p>
             </form>
         </div>
         <!-- _TITLE MAIN -->
-        <p class="buy-now">
+        <p class="title-main">
             <img class="icon-hand-holding-dollar" src="/images/icons/hand-holding-usd-solid.svg" alt="Compre en cuotas">
             Comprá en cuotas y sin tarjeta de crédito
         </p>
         <!-- _MENU BUY-SELL -->
         <nav>
-            <ul class="nav-buy-sell">
+            <ul class="buy-sell">
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
                 <li><a href="">Vender</a></li>
@@ -61,95 +63,273 @@
                 <img src="/images/icons/bars-solid.svg" alt="Menú" class="icon-burger-menu">
             </a>
         </div>
-    </header>
-
-    <!-- _MAIN -->
-
-    <main>
         <!-- _BANNER -->
         <div class="banner">
             <img class="banner-img" src="/images/img-home-banner.jpg" alt="compra compra! vende! vende!">
         </div>
+
+    </header>
+
+    <!-- _MAIN -->
+    <main>
+
         <!-- _PRODUCTS SUGGEST -->
-        <section class="suggest">
+        <section class="suggest-products">
+
+            <!-- _TITLES OFFER -->
             <h2 class="suggest-title">Basado en tu última visita</h2>
-            <article class="suggest-article">
-                <div><img class="suggest-img" src="/images/img-cafetera-moulinex.jpg" alt="Cafetera"></div>
-                <p class="suggest-p">$6.770</p>
-                <p class="suggest-p">40% OFF</p>
-                <h4 class="suggest-h4">Cafetera Moulinex</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MOULINEX IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                </div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$6.770</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off">40% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description">Cafetera Moulinex</h4>
+                </div>
             </article>
-            <article class="suggest-article">
-                <div><img class="suggest-img" src="/images/img-macbook-pro-2019.jpg" alt="MacBook"></div>
-                <p>class="suggest-p"$230.000</p>
-                <p>class="suggest-p"20% off</p>
-                <h4>class="suggest-h4" MacBook Pro 2019</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MAC BOOK IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-macbook-pro-2019.jpg" alt="Mac Book"></div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$230.000</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off">20% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description"> MacBook Pro 2019</h4>
+                </div>
             </article>
-            <article class="suggest-article">
-                <div><img class="suggest-img" src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy-s10"></div>
-                <p>class="suggest-p"$70.500</p>
-                <p>class="suggest-p"10% off</p>
-                <h4>class="suggest-h4" Samsung Galaxy S10</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MOULINEX IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy S 10">
+                </div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$70.500</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off">10% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description"> Samsung Galaxy S10</h4>
+                </div>
             </article>
-            <article class="suggest-article">
-                <div><img class="suggest-img" src="/images/img-tv-samsung-smart.jpg" alt="tv"></div>
-                <p>class="suggest-p"$23.200</p>
-                <p>class="suggest-p" 5% off</p>
-                <h4>class="suggest-h4" SmartTv Samsung 43"</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MOULINEX IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-tv-samsung-smart.jpg" alt="Smart Tv">
+                </div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$23.200</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off"> 5% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description"> SmartTv Samsung 43"</h4>
+                </div>
             </article>
+
+
         </section>
-        <!-- _PRODUCTS OFFER -->
-        <section class="offer">
-            <h2>Ofertas</h2>
-            <article>
-                <div><img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera"></div>
-                <p>$6.770</p>
-                <p>40% OFF</p>
-                <h4>Cafetera Moulinex</h4>
+
+        <!-- _OFFER -->
+        <section class="suggest-products">
+
+            <!-- _TITLES OFFER -->
+            <h2 class="suggest-title">Ofertas</h2>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MOULINEX IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex">
+                </div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$6.770</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off">40% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description">Cafetera Moulinex</h4>
+                </div>
             </article>
-            <article>
-                <div><img src="/images/img-macbook-pro-2019.jpg" alt="MacBook"></div>
-                <p>$230.000</p>
-                <p>20% off</p>
-                <h4>MacBook Pro 2019</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MAC BOOK IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-macbook-pro-2019.jpg" alt="Mac Book"></div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$230.000</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off">20% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description"> MacBook Pro 2019</h4>
+                </div>
             </article>
-            <article>
-                <div><img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy-s10"></div>
-                <p>$70.500</p>
-                <p>10% off</p>
-                <h4>Samsung Galaxy S10</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MOULINEX IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy S 10">
+                </div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$70.500</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off">10% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description"> Samsung Galaxy S10</h4>
+                </div>
             </article>
-            <article>
-                <div><img src="/images/img-tv-samsung-smart.jpg" alt="tv"></div>
-                <p>$23.200</p>
-                <p>5% off</p>
-                <h4>SmartTv Samsung 43"</h4>
+
+
+            <!-- _ARTICLES OFFER -->
+            <article class="suggest">
+
+                <!-- _MOULINEX IMG OFFER -->
+                <div><img class="suggest-product-img" src="/images/img-tv-samsung-smart.jpg" alt="Smart Tv">
+                </div>
+
+                <!-- _PRICE OFFER -->
+                <div class="suggest-product-price">
+
+                    <!-- _ICON SHIPPING TRUCK -->
+                    <div class="icon-shipping-truck">
+                        <i class="fas fa-truck fa-lg fa-spin"></i>
+                    </div>
+
+                    <!-- _PRICE SUGGEST -->
+                    <p class="suggest-price">$23.200</p>
+
+                    <!-- _OFF SUGGEST -->
+                    <p class="suggest-off"> 5% off</p>
+
+                    <!-- _DESCRIPTION SUGGEST -->
+                    <h4 class="suggest-description"> SmartTv Samsung 43"</h4>
+                </div>
             </article>
+
+
         </section>
+
     </main>
 
     <!-- _FOOTER -->
     <footer>
+        <!-- _SECURE PURCHASE -->
         <section class="secure-purchase">
-            <article class="articles">
-                <img class="icon-pay" src="/images/icons/credit-card-solid.svg" alt="Pagá con tarjeta o efectivo.">
-                <h4 class="articles-title">Pagá con tarjeta o en efectivo</h4>
-                <p class="description"> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+            <article class="purchase">
+                <img class="icon-credit" src="/images/icons/credit-card-solid.svg" alt="Pagá con tarjeta o efectivo.">
+                <h4 class="purchase">Pagá con tarjeta o en efectivo</h4>
+                <p class="purchase"> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                     puntos de pago. ¡Y siempre es seguro!
                 </p>
             </article>
-            <article class="articles">
-                <img class="icon-free-shipping" src="/images/icons/gift-solid.svg" alt="Envío gratis desde $ 2500.">
-                <h4 class="articles-title">Envío gratis desde $ 2.500</h4>
-                <p class="description"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+            <article class="purchase">
+                <img class="icon-gift" src="/images/icons/gift-solid.svg" alt="Envío gratis desde $ 2500.">
+                <h4 class="purchase">Envío gratis desde $ 2.500</h4>
+                <p class="purchase"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                     productos. Es un beneficio de Mercado Puntos.
                 </p>
             </article>
-            <article class="articles">
-                <img class="icon-safe-shopping" src="/images/icons/user-shield-solid.svg"
+            <article class="purchase">
+                <img class="icon-solid" src="/images/icons/user-shield-solid.svg"
                     alt="Seguridad de principio a fin. Comprá tranqui.">
-                <h4 class="articles-title">Seguridad, de principio a fin</h4>
-                <p class="description"> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                <h4 class="purchase">Seguridad, de principio a fin</h4>
+                <p class="purchase"> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                     porque estás siempre protegid@.
                 </p>
             </article>
