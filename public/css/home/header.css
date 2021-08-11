@@ -15,9 +15,8 @@ body.home header div.search {
 }
 
 body.home header div form p input.input-search {
-    width: 57%;
+    width: 17rem;
     height: 22px;
-    font-size:14px;
 }
 
 /* _TITLE MAIN */
@@ -47,7 +46,7 @@ body.home header nav ul li a img.icon-my-purchase {
     width: 15px;
 }
 
-/* _MENU BURGER */
+/* _MENU BURGER CONTAINER */
 body.home header div.burger-menu-container {
     width: 45px;
     margin: 31px auto 22px;
@@ -70,4 +69,85 @@ body.home header div a img.icon-burger-menu {
 body.home header div.banner img.banner-img {
     width: 100%;
     display: block;
+}
+
+
+
+
+/* TABLET */
+@media (min-width:361px) {
+
+    /* _MENU BURGER CONTAINER*/
+    body.home header div.burger-menu-container {
+        display: none;
+    }
+
+    /* _LOGO */
+    body.home header div.logo {
+        width: 48%;
+        padding: 28px 7% 16px 4%;
+    }
+
+    /* _SEARCH INPUT */
+    body.home header div form p input.input-search {
+        height: 22px;
+
+    }
+
+    /* _MENU HEADER */
+    body.home header nav {
+        display: inline-block;
+        margin: 10px;
+
+    }
+
+    /* _MENU BUY-SELL */
+    body.home header nav ul.buy-sell {
+        margin-bottom: 0;
+
+    }
+
+}
+
+
+
+/* DESKTOP */
+@media (min-width:769px) {
+
+    /* _MENU BURGER CONTAINER*/
+    body.home header div.burger-menu-container {
+        display: none;
+    }
+
+    /* _LOGO */
+    body.home header div.logo {
+        width: 43%;
+        padding: 17px 8% 10px 3%;
+    }
+
+    /* _SEARCH BAR */
+    body.home header div.search {
+        padding-left: 2%;
+    }
+
+    /* _SEARCH INPUT */
+    body.home header div form p input.input-search {
+        height: 22px;
+        font-size: 14px;
+        width: 27%;
+        max-width: 255px;
+
+    }
+
+    /* _MENU HEADER */
+    body.home header nav {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    /* _MENU BUY-SELL */
+    body.home header nav ul.buy-sell {
+        margin-bottom: 0;
+    }
+
 }

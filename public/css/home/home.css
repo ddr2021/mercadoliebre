@@ -58,4 +58,28 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
     font-size: 16px;
     padding-top: 30px;
     color: #667;
+    display: none;
 }
+
+
+
+
+/* TABLET-DESKTOP */
+@media(min-width:361px) {
+
+    /* _ARTICLES SUGGEST PRODUCT*/
+    body.home main section.suggest-products article.suggest {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    /* _DESCRIPTION SUGGEST  */
+    body.home main section.suggest-products article.suggest h4.suggest-description {
+        font-size: 16px;
+        padding-top: 30px;
+        color: #667;
+        display: inline-block;
+    }
+
+}
+
+

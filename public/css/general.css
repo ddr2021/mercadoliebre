@@ -11,17 +11,9 @@ a {
     text-decoration: none;
 }
 
-/* LISTAS */
-ul,
-li {
-    list-style: none;
-}
-
 /* FUENTES */
-/* RUNS OK */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap'); */
 * {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -31,4 +23,25 @@ li {
 /* COLORES */
 body {
     background-color: #ebebeb;
+}
+
+/* LISTAS */
+ul,
+li {
+    list-style: none;
+}
+
+
+@media(min-width:361px) {
+    * {
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width:769px) {
+    * {
+        font-size: 16px;
+    }
+
 }
