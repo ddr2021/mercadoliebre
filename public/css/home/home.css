@@ -2,6 +2,7 @@
 body.home main {
     width: 90%;
     margin: auto;
+    max-width: 480px;
 }
 
 /* _TITLES SUGGEST PRODUCT */
@@ -28,29 +29,39 @@ body.home main section.suggest-products article.suggest div.suggest-product-pric
     padding: 15px;
     border-top: solid 1px #ebebeb;
     background-color: white;
+    position: relative;
+    padding-top: 19px;
 }
 
 /* _ICON SHIPPING TRUCK */
 body.home main section.suggest-products article.suggest div.icon-shipping-truck {
     border: solid 1px #39b54a;
-    width: 50px;
-    height: 50px;
+    width: 37px;
+    height: 37px;
     border-radius: 50%;
     color: #39b54a;
     padding: 7px;
+    background-color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 84px;
+    right: 20px;
 }
 
-/* _PRICE SUGGEST  */
-body.home main section.suggest-products article.suggest p.suggest-price {
+/* HOME-PRICE-SPAN  */
+body.home .home-price-span {
     font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    width: 30%;
 }
 
-/* _OFF SUGGEST */
-body.home main section.suggest-products article.suggest p.suggest-off {
-    font-size: 16px;
+/* HOME-OFF-SPAN */
+body.home .home-off-span {
+    font-size: 18px;
     font-weight: 700;
     color: #39b54a;
-    margin-top: 3px;
+
 }
 
 /* _DESCRIPTION SUGGEST  */
@@ -58,28 +69,76 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
     font-size: 16px;
     padding-top: 30px;
     color: #667;
-    display: none;
+    display: inline-block;
+
 }
+
+
+
+
+
 
 
 
 
 /* TABLET-DESKTOP */
-@media(min-width:361px) {
+@media(min-width:670px) {
 
-    /* _ARTICLES SUGGEST PRODUCT*/
-    body.home main section.suggest-products article.suggest {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    body.home main {
+        max-width: none;
+    }
+
+    body.home .home-logosearchcompra-div {
+        display: flex;
     }
 
     /* _DESCRIPTION SUGGEST  */
     body.home main section.suggest-products article.suggest h4.suggest-description {
-        font-size: 16px;
+        font-size: 17px;
         padding-top: 30px;
         color: #667;
         display: inline-block;
     }
 
+    /* _HOME SUGGEST CONTAINER */
+    body.home .home-suggest-container,
+    body.home .home-offer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* _ARTICLES SUGGEST PRODUCT*/
+    body.home main section.suggest-products article.suggest {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 47%;
+        margin-bottom: 24px;
+    }
+
+    /* _HOME_PRICE_SPAN */
+    body.home .home-price-span {
+        width: 50%;
+    }
+
+
+
+
 }
 
 
+
+
+
+
+@media(min-width: 1000px) {
+
+    /* _ARTICLES SUGGEST PRODUCT*/
+    body.home main section.suggest-products article.suggest {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 23%;
+        margin-bottom: 24px;
+    }
+
+
+
+}

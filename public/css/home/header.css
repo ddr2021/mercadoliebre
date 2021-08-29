@@ -1,153 +1,476 @@
-﻿/* _HEADER */
-body.home header {
-    background-color: #EAC926;
-}
+﻿    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
 
-/* _LOGO */
-body.home header div.logo {
-    width: 50%;
-    padding: 28px 3% 16px 8%;
-}
+    /* _WIREFRAME */
+    body.home header {
+        background-image: url(no../../../ml-flexbox/mockup/mocks-flexbox/mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 
-/* _SEARCH BAR */
-body.home header div.search {
-    padding-left: 4.9%;
-}
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
 
-body.home header div form p input.input-search {
-    width: 17rem;
-    height: 22px;
-}
+    /* _COLOR HEADER GROUPED */
+    body.home header .container .grouped {
+        background-color: #EAC926;
+    }
 
-/* _TITLE MAIN */
-body.home header p.title-main {
-    text-align: center;
-    margin: 11px 8% 22px;
-}
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
 
-body.home header p.title-main img.icon-hand-holding-dollar {
-    width: 14px;
-}
+    /* GROUP1 ADJUST */
+    body.home header .container .grouped .group1 {
+        width: 90%;
+        margin: auto;
+    }
 
-/* _MENU HEADER */
-body.home header nav {
-    display: none;
-}
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
+    /*____________________BLOCK1 */
 
-/* _MENU BUY-SELL */
-body.home header nav ul.buy-sell {
-    margin-bottom: 20px;
-}
+    /* _BLOCK1 ORDER */
+    body.home header .container .grouped .group1 .block1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-/* _MENU ACCOUNT */
-body.home header nav ul li a img.icon-account,
-body.home header nav ul li a img.icon-sign-in,
-body.home header nav ul li a img.icon-my-purchase {
-    width: 15px;
-}
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
+    /*____________________BLOCK1 */
+    /*___________BOX1 */
 
-/* _MENU BURGER CONTAINER */
-body.home header div.burger-menu-container {
-    width: 45px;
-    margin: 31px auto 22px;
-}
+    /* _BOX1 ORDER*/
+    body.home header .container .grouped .group1 .block1 .box1 {
+        width: 50%;
+    }
 
-body.home header div.burger-menu-container:hover {
-    opacity: 0.7;
-}
+    /* _LOGO MERCADOLIEBRE */
+    body.home .home-logo-div {
+        padding: 15% 5% 0 3%;
+    }
 
-body.home header div a img.icon-burger-menu {
-    width: 45px;
-    padding: 10px 12px 10px;
-    background-color: #1259c3;
-    border-radius: 5px;
-    margin: auto;
-    display: block;
-}
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
+    /*____________________BLOCK1 */
+    /*___________BOX2 */
 
-/* _BANNER */
-body.home header div.banner img.banner-img {
-    width: 100%;
-    display: block;
-}
+    /* _BOX2 ORDER*/
+    body.home header .container .grouped .group1 .block1 .box2 {
+        width: 50%;
+        padding-top: 9%;
+    }
 
+    /* _BUSCAR INPUT SEARCH */
+    body.home .home-buscar-div input.search {
+        height: 38px;
+        border-radius: 5px;
+        border: 0;
+        padding-left: 5px;
+        width: 100%;
+    }
 
-
-
-/* TABLET */
-@media (min-width:361px) {
-
-    /* _MENU BURGER CONTAINER*/
-    body.home header div.burger-menu-container {
+    /* _BUSCAR INPUT SUBMIT */
+    body.home .home-buscar-div input.submit {
         display: none;
     }
 
-    /* _LOGO */
-    body.home header div.logo {
-        width: 48%;
-        padding: 28px 7% 16px 4%;
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
+    /*____________________BLOCK1 */
+    /*___________BOX3 */
+
+    /* _COMPRA EN CUOTAS */
+    body.home header .container .grouped .group1 .block1 .box3 {
+        margin: auto;
+        margin-top: 7%;
+        text-align: center;
     }
 
-    /* _SEARCH INPUT */
-    body.home header div form p input.input-search {
-        height: 22px;
-
+    /* _COMPRA EN CUOTAS IMG */
+    body.home .home-compraencuotas-p {
+        text-align: center;
     }
 
-    /* _MENU HEADER */
+    /* _COMPRA EN CUOTAS IMG */
+    body.home .home-compraencuotas-p img {
+        width: 15px;
+    }
+
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
+    /*____________________BLOCK2 */
+    /*___________BOX1 */
+
+    /* _MENU BURGGER */
+    body.home .home-menuburgger-div {
+        width: 45px;
+        margin: 31px auto 22px;
+    }
+
+    /* _MENU BURGGER HOVER */
+    body.home .home-menuburgger-div:hover {
+        opacity: 0.7;
+    }
+
+    /* __MENU BURGGER IMG */
+    body.home .home-menuburgger-div img {
+        width: 45px;
+        padding: 10px 12px 10px;
+        background-color: #1259c3;
+        border-radius: 5px;
+        margin: auto;
+        display: block;
+    }
+
+    /* _MENU HEADER HIDE */
     body.home header nav {
-        display: inline-block;
-        margin: 10px;
-
-    }
-
-    /* _MENU BUY-SELL */
-    body.home header nav ul.buy-sell {
-        margin-bottom: 0;
-
-    }
-
-}
-
-
-
-/* DESKTOP */
-@media (min-width:769px) {
-
-    /* _MENU BURGER CONTAINER*/
-    body.home header div.burger-menu-container {
         display: none;
     }
 
-    /* _LOGO */
-    body.home header div.logo {
-        width: 43%;
-        padding: 17px 8% 10px 3%;
+    /* _MENU CREACOMPRAS ICONS */
+    body.home header nav ul li a img.icon-account,
+    body.home header nav ul li a img.icon-sign-in,
+    body.home header nav ul li a img.icon-my-purchase {
+        width: 15px;
     }
 
-    /* _SEARCH BAR */
-    body.home header div.search {
-        padding-left: 2%;
+    /* ________________________________________________________________________________MOBILE */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP2 */
+    /*____________________BLOCK1 */
+    /*___________BOX1 */
+
+    /* _BANNER */
+    body.home .home-banner-div img {
+        width: 100%;
+        display: block;
     }
 
-    /* _SEARCH INPUT */
-    body.home header div form p input.input-search {
-        height: 22px;
-        font-size: 14px;
-        width: 27%;
-        max-width: 255px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ________________________________________________________________________________TABLET */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+
+    @media (min-width:670px) {
+
+        /* _WIREFRAME */
+        body.home header {
+            background-image: url(../../../ml-flexbox/mockup/mocks-flexbox/tablet.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /* __________BOX1 */
+        /* __________BOX2 */
+        /* __________BOX3 */
+
+        /* _BLOCK1 ORDER */
+        body.home header .container .grouped .group1 .block1 .box1,
+        body.home header .container .grouped .group1 .block1 .box2,
+        body.home header .container .grouped .group1 .block1 .box3 {
+            width: 33.3%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+
+        /* _GROUP1 ORDER */
+        body.home header .container .grouped .group1 {
+            width: 93%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /*___________BOX1 */
+
+        /* _BOX1 CLEAN  */
+        body.home header .container .grouped .group1 .block1 .box1 {
+            padding: 0;
+        }
+
+        /* _LOGO MERCADOLIEBRE */
+        body.home .home-logo-div {
+            padding: 11% 0 0 0;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /*___________BOX2 */
+
+        /* _BOX2 ADJUST  */
+        body.home header .container .grouped .group1 .block1 .box2 {
+            padding: 7% 0 0 2%;
+        }
+
+        /* _BUSCAR INPUT */
+        body.home .home-buscar-div input.search {
+            height: 27px;
+            width: 87%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /*___________BOX3 */
+
+        /* _COMPRA EN CUOTAS */
+        body.home header .container .grouped .group1 .block1 .box3 {
+            margin-top: 8%;
+        }
+
+        /* _COMPRA EN CUOTAS IMG */
+        body.home .home-compraencuotas-p {
+            text-align: initial;
+            margin-left: -3%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK2 */
+        /*___________BOX1 */
+
+        /* _MENU BURGGER HIDE*/
+        body.home .home-menuburgger-div {
+            display: none;
+        }
+
+        /* _MENU SHOW ORDER*/
+        body.home header .container .grouped .group1 .block2 .box2 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5.7%;
+        }
+
+        /* _MENU NAV */
+        body.home .home-ofertasayuda-nav,
+        body.home .home-creacompras-nav {
+            display: block;
+            width: 50%;
+        }
+
+        /* _MENU UL */
+        body.home .home-ofertasayuda-nav ul,
+        body.home .home-creacompras-nav ul {
+            display: flex;
+            align-items: baseline;
+        }
+
+        body.home .home-creacompras-nav ul {
+            justify-content: flex-end;
+        }
+
+        body.home .home-ofertasayuda-nav ul li {
+            margin-right: 4%;
+        }
+
+        body.home .home-creacompras-nav ul li {
+            margin-left: 4%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK2 */
+
+        /* _MARGEN GROUP1 VS GROUP2 */
+        body.home header .container .grouped .group1 .block2 {
+            margin-bottom: 3%;
+        }
+
+
+
 
     }
 
-    /* _MENU HEADER */
-    body.home header nav {
-        display: inline-block;
-        margin: 10px;
-    }
 
-    /* _MENU BUY-SELL */
-    body.home header nav ul.buy-sell {
-        margin-bottom: 0;
-    }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ________________________________________________________________________________TABLET */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+    /* ___________________________________________GROUPED */
+    /* _______________________________GROUP1 */
+    /*____________________BLOCK2 */
+    /*___________BOX1 */
+
+
+
+
+    /* ________________________________________________________________________________DESKTOP */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+
+
+
+    /* ________________________________________________________________________________TABLET */
+    /* ______________________________________________________________________BODY */
+    /* _________________________________________________________HEADER */
+
+    @media (min-width:1440px) {
+
+        body.home header {
+            background-image: url(../../../ml-flexbox/mockup/mocks-flexbox/desktop.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+
+        /* _GRUPO1 ADJUST */
+        body.home header .container .grouped .group1 {
+            width: 94%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /*___________BOX1 */
+
+        /* _LOGO MERCADOLIEBRE */
+        body.home .home-logo-div {
+            padding: 4% 0% 0% 0%;
+        }
+
+        body.home .home-logo-div img {
+            width: 107%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /*___________BOX2 */
+
+        /* _BOX2 ADJUST */
+        body.home header .container .grouped .group1 .block1 .box2 {
+            padding: 5.2% 0 0 2%;
+        }
+
+        body.home .home-buscar-div input.search {
+            height: 27px;
+            width: 58.7%;
+            margin-left: 5%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK1 */
+        /*___________BOX3 */
+
+        /* _ MENU COMPRA EN CUOTAS */
+        body.home .home-compraencuotas-p {
+            margin-left: 0;
+        }
+
+        /* _BOX3 ADJUST */
+        body.home header .container .grouped .group1 .block1 .box3 {
+            margin-top: 5.7%;
+        }
+
+        /* ________________________________________________________________________________TABLET */
+        /* ______________________________________________________________________BODY */
+        /* _________________________________________________________HEADER */
+        /* ___________________________________________GROUPED */
+        /* _______________________________GROUP1 */
+        /*____________________BLOCK2 */
+        /*___________BOX2 */
+
+        /* _BOX2 ADJUST */
+        body.home header .container .grouped .group1 .block2 .box2 {
+            margin-top: 3%;
+        }
+
+
+
+    }

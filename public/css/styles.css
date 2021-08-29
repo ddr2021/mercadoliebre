@@ -1,6 +1,6 @@
 ﻿ 
 @import url('general.css');
 @import url('normalize.css');
-@import url('/css/home/header.css');
-@import url('/css/home/home.css');
-@import url('/css/home/footer.css');
+@import url('home/header.css');
+@import url('home/home.css');
+@import url('home/footer.css');
