@@ -1,0 +1,45 @@
+﻿/* FOOTER*/
+
+/* _SECURE PURCHASE */
+
+body.autentication footer {
+    background: none;
+    background-color: white;
+}
+
+body.autentication footer section.secure-purchase {
+    text-align: center;
+    margin: 0 35px 0;
+}
+
+body.autentication footer section article {
+    margin-bottom: 10px;
+}
+
+body.autentication footer section.secure-purchase article.purchase {
+    padding: 55px 0 0;
+}
+
+body.autentication footer section.secure-purchase article.purchase img.icon-credit,
+body.autentication footer section.secure-purchase article.purchase img.icon-gift,
+body.autentication footer section.secure-purchase article.purchase img.icon-solid {
+    width: 2em;
+    margin-bottom: 10px;
+}
+
+body.autentication footer section.secure-purchase article.purchase h4.purchase {
+    color: #667;
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+
+body.autentication footer section.secure-purchase article.purchase p.purchase {
+    color: #667;
+}
+
+/* COPYRIGHT */
+body.autentication footer p.copyright {
+    margin: 44px 0 0 15px;
+    padding-bottom: 20px;
+    color: #667;
+}

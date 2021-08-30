@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <script src="https://kit.fontawesome.com/621cfbb24e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="autentication">
+
+    <!-- _HEADER -->
+    <header>
+        <div class="container">
+            <div class="grouped">
+                <div class="group1">
+                    <div class="block1">
+
+                        <div class="box1">
+                            <!-- _LOGO -->
+                            <div class="home-logo-div">
+                                <a href="home.html">
+                                    <img src="/images/icons/logo-mercado-liebre.svg" alt="mercado liebre">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box2">
+                            <!-- _SEARCH BAR -->
+                            <div class="home-buscar-div">
+                                <form action="/form-result.php" method="post" target="_blank">
+                                    <input class="search" type="search" name="productsearch"
+                                        placeholder=" Buscar productos, marcas">
+                                    <input class="submit" type="submit" value="Buscar">
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="box3">
+                            <!-- _TITLE MAIN -->
+                            <p class="home-compraencuotas-p">
+                                <img src="/images/icons/hand-holding-usd-solid.svg" alt="Compre en cuotas">
+                                Comprá en cuotas y sin tarjeta de crédito
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="block2">
+
+                        <div class="box1">
+                            <!-- _MENU BURGER CONTAINER-->
+                            <div class="home-menuburgger-div">
+                                <a href="">
+                                    <img src="/images/icons/bars-solid.svg" alt="Menú">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="box2">
+
+                            <nav class="home-ofertasayuda-nav">
+                                <ul>
+                                    <li><a href="#">Ofertas</a></li>
+                                    <li><a href="#">Tiendas Oficiales</a></li>
+                                    <li><a href="#">Vender</a></li>
+                                    <li><a href="#">Ayuda</a></li>
+                                </ul>
+                            </nav>
+
+                            <nav class="home-creacompras-nav">
+                                <ul>
+                                    <li>
+                                        <a href="register.html">Creá tu cuenta
+                                            <img class="icon-account" src="/images/icons/id-card-regular.svg"
+                                                alt="Crea tu cuenta">
+                                        </a>
+                                    </li>
+                                    <li><a href="autentication.html">Ingresá
+                                            <img class="icon-sign-in" src="/images/icons/sign-in-alt-solid.svg"
+                                                alt="Ingresa a tu cuenta">
+                                        </a>
+                                    </li>
+                                    <li><a href="">Mis Compras
+                                            <img class="icon-my-purchase"
+                                                src="/images/icons/shopping-basket-solid.svg"
+                                                alt="Mis compras">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- _MAIN -->
+    <main>
+        <div class="autentication">
+
+            <form class="autentic" action="/action_page.php" method="post">
+
+                <!-- _INPUTS -->
+                <div class="inputs">
+
+                    <input type="text" placeholder="Nombre de usuario" name="uname" required="">
+
+                    <input type="password" placeholder="Elegí tu contraseña" name="psw" required="">
+
+                </div>
+
+                <!-- Enviar -->
+                <button type="submit" class="enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- _FOOTER -->
+    <footer>
+        <!-- _SECURE PURCHASE -->
+        <section class="secure-purchase">
+            <article class="purchase">
+                <img class="icon-credit" src="/images/icons/credit-card-solid.svg"
+                    alt="Pagá con tarjeta o efectivo.">
+                <h4 class="purchase">Pagá con tarjeta o en efectivo</h4>
+                <p class="purchase"> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!
+                </p>
+            </article>
+            <article class="purchase">
+                <img class="icon-gift" src="/images/icons/gift-solid.svg" alt="Envío gratis desde $ 2500.">
+                <h4 class="purchase">Envío gratis desde $ 2.500</h4>
+                <p class="purchase"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.
+                </p>
+            </article>
+            <article class="purchase">
+                <img class="icon-solid" src="/images/icons/user-shield-solid.svg"
+                    alt="Seguridad de principio a fin. Comprá tranqui.">
+                <h4 class="purchase">Seguridad, de principio a fin</h4>
+                <p class="purchase"> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.
+                </p>
+            </article>
+        </section>
+        <p class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </footer>
+
+</body>
+
+</html>
