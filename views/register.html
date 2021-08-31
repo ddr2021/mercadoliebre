@@ -34,7 +34,9 @@
                                 <form action="/form-result.php" method="post" target="_blank">
                                     <input class="search" type="search" name="productsearch"
                                         placeholder=" Buscar productos, marcas">
-                                    <input class="submit" type="submit" value="Buscar">
+                                    <button class="submit" type="submit" value="buscar" name="buscar">
+                                        <i class="fas fa-search"></i>
+                                    </button>
                                 </form>
                             </div>
                         </div>
@@ -73,7 +75,7 @@
                             <nav class="home-creacompras-nav">
                                 <ul>
                                     <li>
-                                        <a href="">Creá tu cuenta
+                                        <a href="register.html">Creá tu cuenta
                                             <img class="icon-account" src="/images/icons/id-card-regular.svg"
                                                 alt="Crea tu cuenta">
                                         </a>
@@ -96,6 +98,9 @@
                 </div>
             </div>
         </div>
+
+
+
     </header>
 
     <!-- _MAIN -->
@@ -119,7 +124,7 @@
 
                 <!-- _EMAIL -->
                 <div class="__email">
-                    <input type="text" placeholder="E-mail" name="uname" required="">
+                    <input type="email" placeholder="E-mail" name="uname" required="">
                 </div>
 
                 <div class="__error">
@@ -218,7 +223,7 @@
                             Elige tu contraseña
                         </h3>
                     </label>
-                    <input type="password" placeholder="Contraseña" name="psw" required="">
+                    <input type="password" placeholder="Contraseña" name="psw" required="" minlength="8" maxlength="12">
                     <input type="password" placeholder="Confirmar" name="psw" required="">
                     <label for="__psw" class="__psw-required">
                         Incluye 8 caracteres, mayúsculas y minúsculas, y un número
@@ -227,7 +232,7 @@
 
                 <div class="register-enviarborrar-div">
                     <!-- _RESET -->
-                    <button type="reset" class="register-borrar-reset">Borrar todo</button>
+                    <button type="reset" class="register-borrar-reset">Borrar</button>
 
                     <!-- _SEND -->
                     <button type="submit" class="register-enviar-submit">Enviar</button>

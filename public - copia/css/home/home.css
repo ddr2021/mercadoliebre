@@ -1,0 +1,144 @@
+﻿/* _MAIN */
+body.home main {
+    width: 90%;
+    margin: auto;
+    max-width: 480px;
+}
+
+/* _TITLES SUGGEST PRODUCT */
+body.home main section.suggest-products h2.suggest-title,
+body.home main section.suggest-products h2.offer-title {
+    font-size: 24px;
+    padding: 25px 0;
+    color: #667;
+}
+
+/* _ARTICLES SUGGEST PRODUCT*/
+body.home main section.suggest-products article.suggest {
+    margin-bottom: 10px;
+}
+
+/* _IMG SUGGEST PRODUCT */
+body.home main section.suggest-products article.suggest div img.suggest-product-img,
+body.home main section.offer-products article.offer div img.offer-product-img {
+    width: 100%;
+}
+
+/* _PRICE SUGGEST PRODUCT */
+body.home main section.suggest-products article.suggest div.suggest-product-price {
+    padding: 15px;
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    position: relative;
+    padding-top: 19px;
+}
+
+/* _ICON SHIPPING TRUCK */
+body.home main section.suggest-products article.suggest div.icon-shipping-truck {
+    border: solid 1px #39b54a;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    color: #39b54a;
+    padding: 7px;
+    background-color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 84px;
+    right: 20px;
+}
+
+/* HOME-PRICE-SPAN  */
+body.home .home-price-span {
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    width: 30%;
+}
+
+/* HOME-OFF-SPAN */
+body.home .home-off-span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #39b54a;
+
+}
+
+/* _DESCRIPTION SUGGEST  */
+body.home main section.suggest-products article.suggest h4.suggest-description {
+    font-size: 16px;
+    padding-top: 30px;
+    color: #667;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+/* TABLET-DESKTOP */
+@media(min-width:670px) {
+
+    body.home main {
+        max-width: none;
+    }
+
+    body.home .home-logosearchcompra-div {
+        display: flex;
+    }
+
+    /* _DESCRIPTION SUGGEST  */
+    body.home main section.suggest-products article.suggest h4.suggest-description {
+        font-size: 17px;
+        padding-top: 30px;
+        color: #667;
+        display: inline-block;
+    }
+
+    /* _HOME SUGGEST CONTAINER */
+    body.home .home-suggest-container,
+    body.home .home-offer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* _ARTICLES SUGGEST PRODUCT*/
+    body.home main section.suggest-products article.suggest {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 47%;
+        margin-bottom: 24px;
+    }
+
+    /* _HOME_PRICE_SPAN */
+    body.home .home-price-span {
+        width: 50%;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media(min-width: 1000px) {
+
+    /* _ARTICLES SUGGEST PRODUCT*/
+    body.home main section.suggest-products article.suggest {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 23%;
+        margin-bottom: 24px;
+    }
+
+
+
+}

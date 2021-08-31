@@ -1,0 +1,136 @@
+﻿
+body.autentication div.autentication {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+/* _______________________________________________________AUTENTICATION */
+
+
+body.autentication main div.autentication form.autentic div.inputs div.show {
+    text-align: right;
+}
+
+/* _INPUTS */
+body.autentication main div.autentication form.autentic div.inputs {
+    display: flex;
+    flex-direction: column;
+    height: 127px;
+    justify-content: space-between;
+}
+
+body.autentication main div.autentication form.autentic div.inputs input {
+    padding: 12px 9px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 4px 4px 7px -2px black;
+    background: linear-gradient(47deg, white, transparent);
+}
+
+
+
+/* _ENVIAR */
+body.autentication main div.autentication form.autentic button {
+    margin: auto;
+    text-transform: uppercase;
+    background-color: #1259c3;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 37px;
+    font-weight: bold;
+
+    background: linear-gradient(180deg, #1259c3 5%, #1259c3 100%);
+    box-shadow: 0px 10px 14px -7px #616174;
+    font-family: Arial;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.autentication main div.autentication form.autentic button:hover {
+    background: linear-gradient(180deg, transparent 5%, #EAC926 100%);
+    color: #1259c3
+}
+
+body.autentication main div.autentication form.autentic button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* 
+font-size: 16px;
+border-radius: 5px;
+border: solid 0px #ce7910;
+color: #FFFFFF;
+padding: 10px 18px;
+background: linear-gradient(180deg, #ff8c00 5%, #ce7910 100%);
+box-shadow: 0px 10px 14px -7px #616174;
+font-family: Arial;
+cursor: pointer;
+text-align: center;
+user-select: none;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+body.register .register-enviar-submit:hover {
+    background: linear-gradient(180deg, #ce7910 5%, #ff8c00 100%);
+}
+
+body.register .register-enviar-submit:active {
+    position: relative;
+    top: 1px;
+}
+ */
+
+
+
+
+
+
+
+@media(min-width: 670px) {
+
+    body.autentication div.autentication {
+        width: 50%;
+    }
+
+
+
+}
+
+
+
+
+
+@media(min-width: 1070px) {
+
+    body.autentication div.autentication {
+        width: 40%;
+    }
+
+
+
+}
+
+
+
+
+@media(min-width: 1470px) {
+
+    body.autentication div.autentication {
+        width: 30%;
+    }
+
+
+
+}
