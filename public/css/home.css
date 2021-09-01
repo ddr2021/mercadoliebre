@@ -36,7 +36,6 @@ body.home main section.suggest-products article.suggest div.suggest-product-pric
 
 
 
-/* _HOVER TRUCK ROTATE*/
 /* _ICON SHIPPING TRUCK */
 body.home main section.suggest-products article.suggest div.icon-shipping-truck {
     border: solid 1px #39b54a;
@@ -50,14 +49,7 @@ body.home main section.suggest-products article.suggest div.icon-shipping-truck 
     position: absolute;
     bottom: 84px;
     right: 20px;
-    transition: all 1300ms;
 }
-
-/* _HOVER TRUCK ROTATE*/
-body.home main section.suggest-products article.suggest div.icon-shipping-truck:hover {
-    transform: rotate(-90deg);
-}
-
 
 
 
@@ -132,7 +124,6 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
     }
 
 
-    /* _HOVER SHADOW ARTICLES */
     /* _ARTICLES SUGGEST PRODUCT*/
     body.home main section.suggest-products article.suggest {
         width: 47%;
@@ -198,6 +189,19 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
 
 
 
+/* _HOVER TRUCK ROTATE*/
+/* _ICON SHIPPING TRUCK */
+body.home main section.suggest-products article.suggest div.icon-shipping-truck {
+    transition: all 1300ms;
+}
+
+body.home main section.suggest-products article.suggest:hover div.icon-shipping-truck {
+    transform: rotate(-90deg);
+}
+
+
+
+
 
     /* _HOVER SHADOW ARTICLES */
     /* _ARTICLES SUGGEST PRODUCT*/
@@ -233,54 +237,29 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
 
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width: 1290px) {
-
-
-    /* _HOVER SUGGEST DESCRIPTION */
-    /* _SUGGEST  DESCRIPTION  */
-    body.home main section.suggest-products article.suggest h4.suggest-description {
-        font-size: 17px;
-        padding-top: 30px;
-        color: transparent;
-        transition: all 1000ms;
-    }
-
-    /* _HOVER SUGGEST DESCRIPTION */
-    body.home main section.suggest-products article.suggest h4.suggest-description:hover {
-        color: #667;
-    }
-
-
-
-
-
-
-
-
-
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1290px) {}
