@@ -207,10 +207,24 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
         box-shadow: none;
     }
 
-    /* _HOVER SHADOW ARTICLES */
     body.home main section.suggest-products article.suggest:hover {
-        color: #667;
+
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+
+    /* _HOVER SUGGEST DESCRIPTION */
+    /* _SUGGEST  DESCRIPTION  */
+    body.home main section.suggest-products article.suggest h4.suggest-description {
+        font-size: 17px;
+        padding-top: 30px;
+        color: transparent;
+        transition: all 1000ms;
+    }
+
+    /* _HOVER SHADOW ARTICLES */
+    body.home main section.suggest-products article.suggest:hover h4.suggest-description {
+        color: #667;
     }
 
 
