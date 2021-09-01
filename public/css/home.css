@@ -33,6 +33,10 @@ body.home main section.suggest-products article.suggest div.suggest-product-pric
     padding-top: 19px;
 }
 
+
+
+
+/* _HOVER TRUCK ROTATE*/
 /* _ICON SHIPPING TRUCK */
 body.home main section.suggest-products article.suggest div.icon-shipping-truck {
     border: solid 1px #39b54a;
@@ -46,7 +50,20 @@ body.home main section.suggest-products article.suggest div.icon-shipping-truck 
     position: absolute;
     bottom: 84px;
     right: 20px;
+    transition: all 1300ms;
 }
+
+/* _HOVER TRUCK ROTATE*/
+body.home main section.suggest-products article.suggest div.icon-shipping-truck:hover {
+    transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
 
 /* HOME-PRICE-SPAN  */
 body.home .home-price-span {
@@ -81,7 +98,7 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
 
 
 
-/* TABLET-DESKTOP */
+/* TABLET */
 @media(min-width:670px) {
 
     body.home main {
@@ -92,13 +109,19 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
         display: flex;
     }
 
-    /* _DESCRIPTION SUGGEST  */
+
+
+    /* _SUGGEST  DESCRIPTION  */
     body.home main section.suggest-products article.suggest h4.suggest-description {
         font-size: 17px;
         padding-top: 30px;
-        color: #667;
-        display: inline-block;
     }
+
+
+
+
+
+
 
     /* _HOME SUGGEST CONTAINER */
     body.home .home-suggest-container,
@@ -108,12 +131,18 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
         justify-content: space-between;
     }
 
+
+    /* _HOVER SHADOW ARTICLES */
     /* _ARTICLES SUGGEST PRODUCT*/
     body.home main section.suggest-products article.suggest {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 47%;
         margin-bottom: 24px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
+
+
+
 
     /* _HOME_PRICE_SPAN */
     body.home .home-price-span {
@@ -130,14 +159,113 @@ body.home main section.suggest-products article.suggest h4.suggest-description {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width: 1000px) {
 
     /* _ARTICLES SUGGEST PRODUCT*/
     body.home main section.suggest-products article.suggest {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 23%;
         margin-bottom: 24px;
     }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1020px) {
+
+
+
+
+
+    /* _HOVER SHADOW ARTICLES */
+    /* _ARTICLES SUGGEST PRODUCT*/
+    body.home main section.suggest-products article.suggest {
+        margin-bottom: 24px;
+        transition: all 200ms;
+        box-shadow: none;
+    }
+
+    /* _HOVER SHADOW ARTICLES */
+    body.home main section.suggest-products article.suggest:hover {
+        color: #667;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1290px) {
+
+
+    /* _HOVER SUGGEST DESCRIPTION */
+    /* _SUGGEST  DESCRIPTION  */
+    body.home main section.suggest-products article.suggest h4.suggest-description {
+        font-size: 17px;
+        padding-top: 30px;
+        color: transparent;
+        transition: all 1000ms;
+    }
+
+    /* _HOVER SUGGEST DESCRIPTION */
+    body.home main section.suggest-products article.suggest h4.suggest-description:hover {
+        color: #667;
+    }
+
+
+
+
+
+
+
+
 
 
 

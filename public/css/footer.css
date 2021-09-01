@@ -1,16 +1,24 @@
-﻿/* FOOTER*/
-
-/* _SECURE PURCHASE */
-
+﻿/* ______________________________________________________BODY */
+/* _________________________________________FOOTER */
 body footer {
     background: none;
     background-color: white;
 }
 
+/* ______________________________________________________BODY */
+/* _________________________________________FOOTER */
+/* ___________________________SECTION */
+
+/* _SECURE PURCHASE */
 body footer section.secure-purchase {
     text-align: center;
     margin: 0 35px 0;
 }
+
+/* ______________________________________________________BODY */
+/* _________________________________________FOOTER */
+/* ___________________________SECTION */
+/* ______________ARTICLE */
 
 body footer section article {
     margin-bottom: 10px;
@@ -20,11 +28,23 @@ body footer section.secure-purchase article.purchase {
     padding: 55px 0 0;
 }
 
-body footer section.secure-purchase article.purchase img.icon-credit,
-body footer section.secure-purchase article.purchase img.icon-gift,
-body footer section.secure-purchase article.purchase img.icon-solid {
-    width: 2em;
+
+/* _HOVER ICONS FOOTER */
+/* _ICONS FOOTER */
+body footer .fa-credit-card,
+body footer .fa-gift,
+body footer .fa-user-shield {
     margin-bottom: 10px;
+    color: #1259c3;
+    font-size: 37px;
+}
+
+/* _HOVER ICONS FOOTER */
+body footer .fa-credit-card:hover,
+body footer .fa-gift:hover,
+body footer .fa-user-shield:hover {
+    margin-bottom: 10px;
+    color: #EAC926;
 }
 
 body footer section.secure-purchase article.purchase h4.purchase {
@@ -37,9 +57,53 @@ body footer section.secure-purchase article.purchase p.purchase {
     color: #667;
 }
 
+/* ______________________________________________________BODY */
+/* _________________________________________FOOTER */
+
 /* COPYRIGHT */
 body footer p.copyright {
     margin: 44px 0 0 15px;
     padding-bottom: 20px;
     color: #667;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1020px) {
+
+    /* _SECURE PURCHASE */
+    body footer section.secure-purchase {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3%;
+    }
+
+    body footer section article {
+        width: 30%;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
